@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="author" content="Tony Kamillo" />
+
+        <title>K-means algorithm</title>
+
+        <link rel="shortcut icon" href="">
+        <link type="text/css" rel="stylesheet" media="all" href="styles.css"/>
+
+        <script type="text/javascript" src="jquery.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+
+    <body>
+        <div id="page">
+
+            <label>
+                Area size:
+                <input type="text" id="area-size" value="550" />
+                <button class="area-size">Ok</button>
+            </label>
+
+            <div id="k-means">
+                <div id="space"></div>
+                <div id="controls">
+                    <button class="reset">Reset</button>
+
+                    <label>
+                        Amount points:
+                        <input type="text" value="150" id="amount-points" />
+                    </label>
+
+                    <label>
+                        Amount k-means:
+                        <input type="text" value="5" id="amount-k-means" />
+                    </label>
+
+                    <br/>
+
+                    <button class="add-points">1 - Add points</button>
+                    <button class="define-centroids">2 - Define centroids</button>
+                    <button class="clusterize">3 - Clusterize</button>
+
+                    <p class="warn">HINT: Repeat steps 2 and 3 until there is no changes</p>
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>
+

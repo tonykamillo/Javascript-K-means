@@ -1,0 +1,27 @@
+#page, #space, #controls
+{ display:table; }
+
+#page
+{ margin:0;  background:#ddd; border:1px solid #ccc; padding:5px; }
+
+#space
+{ background:#fff; /*width:565px; height:565px;*/ border:1px solid #ccc; padding:3px; }
+
+#k-means
+{ display:none; }
+
+#controls
+{ margin-top:5px; }
+
+#amount-k-means, #amount-points, #area-size
+{ width:25px; }
+
+.point
+{ width:13px; height:13px; float:left; border:1px solid #ccc; display:block; }
+
+.centroid
+{ font-size:16px; line-height:normal; text-align:center; color:#fff; overflow:hidden; }
+
+.warn
+{ color: #cc0000; font-weight:bold; font-size:15px; }
+
